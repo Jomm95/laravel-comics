@@ -10,11 +10,14 @@
 </head>
 <body>
 
+    {{-- avrà sempre lo stesso header, link section e footer --}}
     @include('partials.header')
+
+    @include('partials.jumbotron')
     
 
     <main>
-
+        {{-- Segnaposto dinamico dove verrà cambiata la pagina visualizzata--}}
         @yield('content')
 
     </main>
