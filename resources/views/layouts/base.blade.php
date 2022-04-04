@@ -13,7 +13,7 @@
     {{-- avrà sempre lo stesso header, link section e footer --}}
     @include('partials.header')
 
-    @include('partials.jumbotron')
+    {{-- @include('partials.jumbotron') --}}
     
 
     <main>
